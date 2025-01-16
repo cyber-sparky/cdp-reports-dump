@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "2c946902635bb9ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9f3727b69599bfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71d58f92ebb9842f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SAST in CICD pipeline/Code Quality Analysis With pylint.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Code Quality Analysis With pylint"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d5c0bd8ce672523c",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b88e00433d7ad7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6559c9dd9e8e0fa0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a628c934460f5d64",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5ea04ef7461cc704",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ea3ebf0f423aad48",
+    "type": "split",
+    "children": [
+      {
+        "id": "f65e8b775413d061",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5791f65d5b1d7849",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SAST in CICD pipeline/Code Quality Analysis With pylint.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Code Quality Analysis With pylint"
+            }
+          },
+          {
+            "id": "d334d209458d19d5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SAST in CICD pipeline/Code Quality Analysis With pylint.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Code Quality Analysis With pylint"
+            }
+          },
+          {
+            "id": "5f08e7f0fa2e409d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cb12363400c544e4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SAST in CICD pipeline/Code Quality Analysis With pylint.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Code Quality Analysis With pylint"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "71d58f92ebb9842f",
+  "lastOpenFiles": [
+    "DAST in CICD pipeline/Embed Nikto, SSLyze, nmap into gitlab.md",
+    "DAST in CICD pipeline/Dynamic Analysis Using Dastardly.md"
+  ]
+}

@@ -1,0 +1,56 @@
+
+## CircleCI workflow for integrating tfsec with a allow failure
+
+```yml
+jobs:
+  tfsec:
+    machine: true
+    steps:
+      - checkout
+
+      - run:
+          command: docker run --rm -v $(pwd):/src aquasec/tfsec /src -f json | tee tfsec-output.json || true
+
+      - store_artifacts:
+          path: tfsec-output.json
+          destination: tfsec-artifact
+          when: always
+
+  test:
+    machine: true
+    steps:
+      - checkout
+      - run: echo "This is a test step"
+
+  integration:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          command: |
+            echo "This is an integration step"
+            exit 1
+          when: on_fail         # Even if the job fails, continue to the next stages
+
+  prod:
+    machine: true
+    steps:
+      - checkout
+      - run: echo "This is a deploy step"
+
+workflows:
+  version: 2
+  terraform:
+    jobs:
+      - tfsec
+      - test:
+          requires:
+            - tfsec
+      - integration:
+          requires:
+            - test
+      - prod:
+          type: approval
+          requires:
+            - integration
+```
